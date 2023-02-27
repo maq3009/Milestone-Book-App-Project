@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Book App</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+    <body>
+        <div class="container">
+            <nav>
+                <h2 class="logo">My Book App</h2>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+                <button class="contactButton" type="button"><a href="contact.html">Contact</a></button>
+            </nav>
+        </div>
+        <section class="ui">
+            <input type="text" class="bookmark-author" placeholder="Author" />
+            <input type="text" class="bookmark-language" placeholder="Language" />
+            <input type="text" class="bookmark-subject" placeholder="Subject" />
+            <input type="text" class="bookmark-title" placeholder="Title" />
+            <button class="add-bookmark">Add New Book</button>
+        </section>
+        <section id="Sort">Sort By Language
+            <div>
+                <button class="english">English Books</button>
+                <button class="german">German Books</button>
+                <button class="french">French Books</button>
+                <button class="finnish">Finnish Books</button>
+            </div>
+            <br>
+            <br>
+        </section>
+        <section id="BookAppStats">
+            <div class="BookAppStats">Book App Stats
+                <ul id="stats"> 
+                
+                </ul>
+            </div>
+        </section>
+        <section id="AllTheBooks">
+            <ul class="bookmarks"></ul>
+            <main id="app">
+        </section>
+        <script src="book-Data.js"></script>
+        <script src="books.js"></script>
+        <script src="bookshelf.js"></script>
+        <script src="index.js"></script>
+      </main>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 15vh;
+    width: 100%
+}
+
+body{
+    background-color: rgb(227, 227, 245);
+}
+
+nav{
+    background-color: rgb(181, 181, 243);
+    border: 2px dashed black;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: rgb(36, 34, 34);
+    font-size: 28px;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    font-size: 30px;
+    color: rgb(27, 24, 24);
+    text-decoration: none;
+    font-weight: 900, bolder;
+}
+
+nav ul li a:hover{
+    color: rgb(35, 236, 28);
+    transition: .3s;
+}
+
+.ui{
+    margin-bottom: 30px;
+}
+
+
+.Sort{
+    font-size: 20px;
+    color: rgb(41, 4, 4);
+    margin: 15px;
+    margin-bottom: 60px;
+    border: 10px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.bookmark{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.newBookBold{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.add-bookmark{
+    border: none;
+    background: rgb(243, 140, 140);
+    padding: 12px 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: .4s;
+}
+
+.contactButton{
+    border: none;
+    background: rgb(37, 33, 33);
+    padding: 12px 30px;
+    margin-left: 10px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: .4s;
+}
+
+
+
+
+.BookAppStats{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid blue;
+    margin: 15px;
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 15px;
+    padding-bottom: 150px;
+
+}
+
+main{
+    margin: 15px;
+}
+
